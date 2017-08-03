@@ -11,7 +11,7 @@ int main () {
 int y[7]={80, 70, 60, 50, 40, 30, 20}; // VETOR
 int *py; // PONTEIRO
 int n; // decrecmentadora
-n=0;
+n=0; // inicia com 0
 	py=&y[n]; //
 	
 	for (n=7;n>0;n--){
