@@ -1,27 +1,25 @@
 /*
 	Exercicio 2
 	Felipe Menegat
+	credits: Samuel Gross
 */
 
 #include <stdlib.h>
 #include <stdio.h>
 
-int main () {	
+int main (){
+	int vet[] = {220, 210, 190, 180, 170, 160, 150,140}; //VETOR
+	int *pu; //PONTEIRO
+	int d; //DECREMENTAR
+	d=0; //INICIA COM 0
+	pu = &vet[d];
+		
+		for(d=8;d>=0;d--){
+		printf("%d\n", *(pu+d));
+		//printf("%d\n", (pu+d));	
+		printf("%d\n", &vet[d]);
+		}	
 	
-int y[7]={80, 70, 60, 50, 40, 30, 20}; // VETOR
-int *py; // PONTEIRO
-int n; // decrecmentadora
-n=0; // inicia com 0
-	py=&y[n]; //
-	
-	for (n=7;n>0;n--){
-		py = &y[n];
-		printf("%d\n", *(py+n));	
-		printf("%d\n", (py+n));
-		printf("%d\n", &y[n]);
-
-	}
-system("pause");
-return 0;	
-
+	system ("pause");
+	return 0;
 }
