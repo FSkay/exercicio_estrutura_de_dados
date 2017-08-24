@@ -3,19 +3,19 @@
 	marca: string de tamanho 15 
 	ano: inteiro 
 	cor: string de tamanho 10 
-	preÁo: real 
+	pre√ßo: real 
 	O programa deve: 
-	Escrever a definiÁ„o da estrutura carro. 
+	Escrever a defini√ß√£o da estrutura carro. 
 	Declarar o vetor vetcarros do tipo da estrutura definida acima, de tamanho 20 e global. 
 	Crie um menu para: 
 	Definir um bloco de programa para ler o vetor vetcarros. 
-	Definir um bloco de programa que receba um preÁo e imprima os carros (marca, cor e ano) que tenham preÁo igual ou menor ao preÁo recebido. 
-	Defina um bloco de programa que leia a marca de um carro e imprima as informaÁıes de todos os carros dessa marca (preÁo, ano e cor). 
-	Defina um bloco de programa que leia uma marca, ano e cor e informe se existe ou n„o um carro com essas caracterÌsticas. Se existir, informar o preÁo. 
+	Definir um bloco de programa que receba um pre√ßo e imprima os carros (marca, cor e ano) que tenham pre√ßo igual ou menor ao pre√ßo recebido. 
+	Defina um bloco de programa que leia a marca de um carro e imprima as informa√ß√µes de todos os carros dessa marca (pre√ßo, ano e cor). 
+	Defina um bloco de programa que leia uma marca, ano e cor e informe se existe ou n√£o um carro com essas caracter√≠sticas. Se existir, informar o pre√ßo. 
 	
 	
 	
-	Trabalho Cadastro de veÌculos
+	Trabalho Cadastro de ve√≠culos
 	Nome: Felipe Menegat
 
 */
@@ -43,7 +43,7 @@ int main(){
 	printf("-------------CADASTRO DE CARROS----------OU SEI LA ANYWAY\n");
 	
 	printf ("Digite a quantidade de carros que deseja cadastrar:");
-  scanf("%d", &opcao);
+  scanf("%d", &opcao); //H√£ t√° isso eu arrumo depois
  
   switch (opcao)
   {
