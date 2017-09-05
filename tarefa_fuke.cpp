@@ -41,13 +41,12 @@ int main(){
 	int vetCarros[20], i, opcao;
 	
 	printf ("Digite a quantidade de carros que deseja cadastrar:\n");
-  	scanf("%d", &[vetCarros]);
+  	scanf("%d", );
 	
-	printf("\n");
-	printf("-------------CADASTRO DE CARROS----------\n");
+	printf("\n-------------CADASTRO DE CARROS----------\n");
 	printf("1 - INSERIR INFORMAÇÕES DO VEÍCULO\n");
 	printf("2 - DIGITAR PREÇO PARA VEREIFICAR QUAIS DISPONÍVEIS\n");
-	printf("-------------CADASTRO DE CARROS----------\n");
+	printf("\n3 - \n");
 	
 	scanf("%d", &opcao);
  
@@ -64,7 +63,7 @@ int main(){
 	scanf  ("%f", &carros.preco);	  
 	break;
  
-     case 2 :
+     /*case 2 :
      	
      	break;
  
@@ -74,8 +73,8 @@ int main(){
  
      case 4 :
         printf ("Quarta\n");
-     break;
+     break;*/
   }
-	for(i=0; i<=20; i++)	 
-
+	for(i=0; i<=20; i++){	 
+	}	
 }
