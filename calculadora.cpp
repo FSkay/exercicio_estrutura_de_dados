@@ -1,8 +1,8 @@
-/*Utilizando o conceito de protótipos, escreva um programa com 5 opções: 
-4 para realizar as operações matemáticas básicas, e 1 para encerrar o programa. Ex: 
-1 – Adição?	2 – Subtração?	3 – Multiplicação 
-4 – Divisão 
-0 – Sair 
+/*Utilizando o conceito de protÃ³tipos, escreva um programa com 5 opÃ§Ãµes: 
+4 para realizar as operaÃ§Ãµes matemÃ¡ticas bÃ¡sicas, e 1 para encerrar o programa. Ex: 
+1 â€“ AdiÃ§Ã£o?	2 â€“ SubtraÃ§Ã£o?	3 â€“ MultiplicaÃ§Ã£o 
+4 â€“ DivisÃ£o 
+0 â€“ Sair 
 Aluno F.Menegat
 */
 
@@ -12,7 +12,7 @@ Aluno F.Menegat
 
 int opcao, valor1, valor2, resSom, resSub, resMult, resDiv; //variavel switch e outras que fazem parte da calculadora
 
-//criando o protótipo de 4 funções
+//criando o protÃ³tipo de 4 funÃ§Ãµes
 int somar (int x, int y);
 int subtrair (int x, int y);
 int multiplicar (int x, int y);
@@ -20,11 +20,11 @@ int dividir (int x, int y);
 
 int main(){
   setlocale(LC_ALL, "");
-  printf("\nDigite as seguintes opções para: \n");
-  printf("\n1 - Adição\n");    
-  printf("\n2 - Subtração\n");       
-  printf("\n3 - Multiplicação\n");   
-  printf("\n4 - Divisão\n");      
+  printf("\nDigite as seguintes opÃ§Ãµes para: \n");
+  printf("\n1 - AdiÃ§Ã£o\n");    
+  printf("\n2 - SubtraÃ§Ã£o\n");       
+  printf("\n3 - MultiplicaÃ§Ã£o\n");   
+  printf("\n4 - DivisÃ£o\n");      
   printf("\n0 - Sair\n");  
          
 		 scanf("%d", &opcao);
@@ -35,7 +35,7 @@ int main(){
 			printf("\nDigite dois valores para somar: \n");
 			scanf("%d" "%d", &valor1, &valor2);
 		 	resSom=valor1 + valor2;
-		 	printf("O resultado é igual a: %d", resSom);
+		 	printf("O resultado Ã© igual a: %d", resSom);
 		 	break;
          
          case 2 : 
@@ -43,23 +43,23 @@ int main(){
 			printf("\nDigite dois valores para subtrair: \n");
 			scanf("%d" "%d", &valor1, &valor2);
 		 	resSub=valor1 - valor2;
-		 	printf("O resultado é igual a: %d", resSub);
+		 	printf("O resultado Ã© igual a: %d", resSub);
 		 	break; 
        
         case 3 :
-        	system("cls");
-           	printf("\nDigite dois valores para multiplicar: \n");
+        		system("cls");
+           		printf("\nDigite dois valores para multiplicar: \n");
 			scanf("%d" "%d", &valor1, &valor2);
 		 	resMult=valor1 * valor2;
-		 	printf("O resultado é igual a: %d", resMult);
+		 	printf("O resultado Ã© igual a: %d", resMult);
 			break; 
          
        case 4 :
-       		system("cls");
-           	printf("\nDigite dois valores para dividir: \n");
-         	scanf("%d" "%d", &valor1, &valor2);
+       			system("cls");
+           		printf("\nDigite dois valores para dividir: \n");
+         		scanf("%d" "%d", &valor1, &valor2);
 		 	resDiv=valor1 / valor2;
-		 	printf("O resultado é igual a: %d", resDiv);
+		 	printf("O resultado Ã© igual a: %d", resDiv);
 			break; 
        
 	   case 0 :
@@ -71,7 +71,7 @@ int main(){
        }     
 
 
-    //chamando todas as funções
+    //chamando todas as funÃ§Ãµes
     /*resSom=somar (valor1, valor2);
     resSub=subtrair (valor1, valor2);
     resMult=multiplicar (valor1, valor2);
