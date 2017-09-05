@@ -46,7 +46,7 @@ int main(){
 		 	printf("O resultado é igual a: %d", resSub);
 		 	break; 
        
-        case 3 :
+         case 3 :
         		system("cls");
            		printf("\nDigite dois valores para multiplicar: \n");
 			scanf("%d" "%d", &valor1, &valor2);
@@ -54,7 +54,7 @@ int main(){
 		 	printf("O resultado é igual a: %d", resMult);
 			break; 
          
-       case 4 :
+         case 4 :
        			system("cls");
            		printf("\nDigite dois valores para dividir: \n");
          		scanf("%d" "%d", &valor1, &valor2);
@@ -62,7 +62,7 @@ int main(){
 		 	printf("O resultado é igual a: %d", resDiv);
 			break; 
        
-	   case 0 :
+	  case 0 :
         	printf("\n0 - Sair\n");   
         	return 0;
        
