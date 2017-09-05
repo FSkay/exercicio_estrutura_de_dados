@@ -1,13 +1,13 @@
-/* 6) Parâmetros + Funções + Alocação
-Data limite para entrega: Não definida
-Faça um programa que leia o número de terneiros em uma fazenda e armazene o peso de cada terneiro,
-em um vetor alocado dinamicamente. Utilize passagem de Parâmetros. Depois o programa deve calcular e apresentar: 
+/* 6) ParÃ¢metros + FunÃ§Ãµes + AlocaÃ§Ã£o
+Data limite para entrega: NÃ£o definida
+FaÃ§a um programa que leia o nÃºmero de terneiros em uma fazenda e armazene o peso de cada terneiro,
+em um vetor alocado dinamicamente. Utilize passagem de ParÃ¢metros. Depois o programa deve calcular e apresentar: 
 
---O peso médio de todos os terneiros. 
---O número de terneiros com peso abaixo da média. 
---O Número de terneiros acima da média. 
---O preço médio por animal. 
---O preço médio por animal acima da média e o preço médio por animal abaixo da média. 
+--O peso mÃ©dio de todos os terneiros. 
+--O nÃºmero de terneiros com peso abaixo da mÃ©dia. 
+--O NÃºmero de terneiros acima da mÃ©dia. 
+--O preÃ§o mÃ©dio por animal. 
+--O preÃ§o mÃ©dio por animal acima da mÃ©dia e o preÃ§o mÃ©dio por animal abaixo da mÃ©dia. 
 */
 
 
@@ -18,7 +18,7 @@ em um vetor alocado dinamicamente. Utilize passagem de Parâmetros. Depois o prog
 
 
 
-//protótipo da função media
+//protÃ³tipo da funÃ§Ã£o media
 float media (float N, float *pesomedio);
 
 int main(void)
@@ -31,43 +31,30 @@ int main(void)
 	//struct terneiro ficha_terneiro terneiro[];
 	/*criando struct*/
 	struct ficha_terneiro
-	{
-				
+	{		
 		int idterneiro;
-	    float pesomedio;
+	 	float pesomedio;
 		float  pesoterneiro,pesototal, maiormedia, menormedia, precoacima, precoabaixo;
 		int i, N, Q;
-        int quantlote=0;
-    
-		
+        	int quantlote=0;	
 	};
 	/*criando variavel aluno que sera do tipo struct ficha_terneiro */
 	ficha_terneiro terneiro;
 
-	 
-	
-	 	
-	
-			
 	 printf("\n---Quantos terneiros possui o lote ---\n\n\n");
 	 scanf("%d", &terneiro.quantlote);
 	 
 
 	       
-	for(i=0;i<=terneiro.quantlote;i++){
+	for(i=0; i<terneiro.quantlote; i++){
 		
 	 printf("\n---Cadastro de terneiro ---\n\n\n");
 	 printf("Identificacao terneiro (numero do brinco)...: ");
 	 scanf("%d", &terneiro.idterneiro);
-	 
-
-		
- 
 	 printf("Digite peso do terneiro...:");
 	 scanf("%f", &terneiro.pesoterneiro);
-	 i++;
+	// i++;
      //while (i <=terneiro.quantlote);
-
        }
       // terneiro.pesototal = soma (terneiro.pesoterneiro);
 	  // terneiro.pesomedio = (terneiro.pesototal) / (terneiro.quantlote);	
@@ -77,7 +64,7 @@ int main(void)
 	 printf("Identificacao terneiro.....: %d\n", terneiro.idterneiro);
 	 printf("Peso do terneiro...: %.2f \n", terneiro.pesoterneiro);
 	 printf("Peso total...: %.2f \n", terneiro.pesototal);
-     printf("Media de peso dos terneiros...: %.2f \n", terneiro.pesomedio);
+     	 printf("Media de peso dos terneiros...: %.2f \n", terneiro.pesomedio);
 	
          
 		getch();
