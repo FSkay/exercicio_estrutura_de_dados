@@ -31,35 +31,35 @@ int main(){
 		 switch(opcao){
          case 1 :
     		system("cls");
-			printf("\nDigite dois valores para somar: \n");
-			scanf("%d" "%d", &valor1, &valor2);
-		 	resSom=valor1 + valor2;
-		 	printf("O resultado é igual a: %d", resSom);
-		 	break;
+		printf("\nDigite dois valores para somar: \n");
+		scanf("%d" "%d", &valor1, &valor2);
+		resSom=valor1 + valor2;
+		printf("O resultado é igual a: %d", resSom);
+		break;
          
          case 2 : 
         	system("cls");
-			printf("\nDigite dois valores para subtrair: \n");
-			scanf("%d" "%d", &valor1, &valor2);
-		 	resSub=valor1 - valor2;
-		 	printf("O resultado é igual a: %d", resSub);
-		 	break; 
+		printf("\nDigite dois valores para subtrair: \n");
+		scanf("%d" "%d", &valor1, &valor2);
+		resSub=valor1 - valor2;
+		printf("O resultado é igual a: %d", resSub);
+		break; 
        
          case 3 :
-        		system("cls");
-           		printf("\nDigite dois valores para multiplicar: \n");
-			scanf("%d" "%d", &valor1, &valor2);
-		 	resMult=valor1 * valor2;
-		 	printf("O resultado é igual a: %d", resMult);
-			break; 
+        	system("cls");
+          	printf("\nDigite dois valores para multiplicar: \n");
+		scanf("%d" "%d", &valor1, &valor2);
+		resMult=valor1 * valor2;
+		printf("O resultado é igual a: %d", resMult);
+		break; 
          
          case 4 :
-       			system("cls");
-           		printf("\nDigite dois valores para dividir: \n");
-         		scanf("%d" "%d", &valor1, &valor2);
-		 	resDiv=valor1 / valor2;
-		 	printf("O resultado é igual a: %d", resDiv);
-			break; 
+       		system("cls");
+           	printf("\nDigite dois valores para dividir: \n");
+         	scanf("%d" "%d", &valor1, &valor2);
+		resDiv=valor1 / valor2;
+		printf("O resultado é igual a: %d", resDiv);
+		break; 
        
 	  case 0 :
         	printf("\n0 - Sair\n");   
