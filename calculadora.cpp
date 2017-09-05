@@ -6,7 +6,7 @@
 Aluno F.Menegat
 */
 
-#include<stio.h>
+#include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
 
@@ -20,45 +20,45 @@ int dividir (int x, int y);
 
 int main(){
   setlocale(LC_ALL, "");
-  printf("\nDigite as seguintes opções para: \n);
+  printf("\nDigite as seguintes opções para: \n");
   printf("\n1 - Adição\n");    
   printf("\n2 - Subtração\n");       
   printf("\n3 - Multiplicação\n");   
   printf("\n4 - Divisão\n");      
   printf("\n0 - Sair\n");  
          
-         scanf("%d", opcao);
+         scanf("%d", &opcao);
          switch(opcao){
-         case 1
-           printf("\n1 - Adição\n");
-           scanf(valor1  valor2 
-         break;
+         case 1 :
+    		system("cls");
+			printf("\nDigite dois valores para somar: \n");
+			scanf("%d" "%d", &valor1, &valor2);
+		 	printf("O resultado é: %d", resSom);
+		 	break;
          
-         case 2 
-           printf("\n2 - Subtração\n");
+         case 2 : 
+        	printf("\n2 - Subtração\n");
          break; 
        
-        case 3
+        case 3 :
            printf("\n3 - Multiplicação\n");
          break; 
          
-       case 4
+       case 4 :
            printf("\n4 - Divisão\n");
          break; 
-       case 0 
-          printf("\n0 - Sair\n");   
-        
+       case 0 :
+        	printf("\n0 - Sair\n");   
+        	return 0;
        default :
         printf ("Valor invalido!\n"); 
-           
        }     
-  
-            
+
+
     //chamando todas as funções
-    resSom=somar (valor1, valor2);
+    /*resSom=somar (valor1, valor2);
     resSub=subtrair (valor1, valor2);
     resMult=multiplicar (valor1, valor2);
     resDiv=dividir (valor1, valor2);
-
+	*/
 }
-
