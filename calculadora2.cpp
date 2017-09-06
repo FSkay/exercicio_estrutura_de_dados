@@ -1,8 +1,12 @@
-/* Programa: CALCULADORA2.C
-   Por: thiagoamm
-   OBS: Programa baseado no fonte do livro Linguagem C
-  (Estudo dirigido), Editora: Érica, Autor: Augusto N.G Manzano */
- 
+/*
+|---------------------------------------------------------------------------------------------|	
+|	Utilizando o conceito de protótipos, escreva um programa com 5 opções: 		      |
+|	4 para realizar as operações matemáticas básicas, e 1 para encerrar o programa. Ex:   |
+|	1 – Adição 2 – Subtração 3 – Multiplicação 4 – Divisão 0 – Sair                       |
+|	Aluno F.Menegat                                                                       |
+|---------------------------------------------------------------------------------------------|
+*/
+
 
 #include <stdio.h>
 
