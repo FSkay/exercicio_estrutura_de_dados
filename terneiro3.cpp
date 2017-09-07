@@ -1,3 +1,14 @@
+/*-------------------------------------------------|
+ | 6 - Fazenda da JBS				   |	
+ |						   |	
+ |						   |	
+ |                                                 |   
+ | Aluno: F.Menegat                                |
+ |-------------------------------------------------|
+*/
+
+
+
 #include <stdio.h>
 #include<stdlib.h>
 #include <conio.h>
@@ -7,8 +18,13 @@
 float media (float N, float *pesomedio, float *pesoterneiro);
 
 int main(void){
-
-		
+	printf("\n-------------FAZENDA DA JBS-------------");
+	printf("|");
+	printf("|");
+	printf("|");
+	printf("|");
+	printf("|");
+	
 		int idterneiro[10];
 	    float pesomedio, menorpreco, maiorpreco;
 		float  *pesoterneiro;
@@ -42,7 +58,7 @@ int main(void){
 			     }   
 		}
 	
-		 printf("\n\n --- Dados do lote de terneiros ----\n\n");
+           printf("\n\n --- Dados do lote de terneiros ----\n\n");
 	   printf("Quantidade lote.....: %d\n",quantlote);
 	   printf("Identificacao terneiro.....: %d\n", idterneiro);
 	   printf("Peso do terneiro...: %.2f \n", pesoterneiro);
