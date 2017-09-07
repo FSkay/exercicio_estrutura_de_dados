@@ -33,13 +33,13 @@
 		int ano;
 		float preco; 
 	};
-	cadastro_carros carros;
+	
 
 int main(){
 	
 	//Vetor e Contador
 	int vetCarros[20], i, opcao;
-	
+	cadastro_carros carros;
 	printf ("Digite a quantidade de carros que deseja cadastrar:\n");
   	scanf("%d", );
 	
