@@ -63,7 +63,7 @@ int main(){
 		printf("O resultado é igual a: %d", resDiv);
 		break; 
        
-	  case 0 :
+	  case !0 :
         	printf("\n0 - Sair\n");   
         	return 0;
        
