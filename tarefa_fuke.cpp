@@ -24,6 +24,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <locale.h>
+#define QUANT_CARROS 20
+
+//Function Call
+
+
 
 //Estruturia para carros
 	struct cadastro_carros { 	
@@ -33,16 +38,22 @@
 		int ano;
 		float preco; 
 	};
-	
+	cadastro_carros carros
+//Variavel Global
+vetCarros[QUANT_CARROS];
 
+//PROGRAMA PRINCIPAL
 int main(){
 	
-	//Vetor e Contador
-	int vetCarros[20], i, opcao;
-	cadastro_carros carros;
-	printf ("Digite a quantidade de carros que deseja cadastrar:\n");
-  	scanf("%d", );
+	//perfumaria
+	system("color 0a");
+	setlocale(LC_ALL, "");
 	
+	//Vetor e Contador
+	int i, opcao;
+	
+	printf ("Digite a quantidade de carros que deseja cadastrar:\n");
+  	scanf("%d", &vetCarros[QUANT_CARROS]);
 	printf("\n-------------CADASTRO DE CARROS----------\n");
 	printf("1 - INSERIR INFORMAÇÕES DO VEÍCULO\n");
 	printf("2 - DIGITAR PREÇO PARA VEREIFICAR QUAIS DISPONÍVEIS\n");
@@ -61,7 +72,11 @@ int main(){
 	scanf  ("%d", &carros.ano);
 	printf ("Preço: \n");
 	scanf  ("%f", &carros.preco);	  
+	for(i=0; i>vetCarros[QUANT_CARROS]; i++){
+	 printf("Marca: ", carros.marca);
+	 
 	break;
+	}
  
      /*case 2 :
      	
@@ -75,6 +90,6 @@ int main(){
         printf ("Quarta\n");
      break;*/
   }
-	for(i=0; i<=20; i++){	 
-	}	
+	 
+
 }
