@@ -39,6 +39,7 @@
 		float preco; 
 	};
 	cadastro_carros carros
+
 //Variavel Global
 vetCarros[QUANT_CARROS];
 
