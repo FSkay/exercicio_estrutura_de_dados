@@ -1,4 +1,4 @@
-*/
+/*
 Fazer um “programinha” para cadastrar Funcionários de uma Firma. O programa deve:
 
 a)Conter um “menuzinho” conforme exemplo:
@@ -23,6 +23,6 @@ Endereço: tipo char 60 caracteres
 e-mail: tipo char 30 caracteres
 
 Aluno: Felipe Menegat
-/*
+*/
 
 #include <stdlib.h>
