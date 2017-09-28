@@ -61,7 +61,7 @@ int main(){
 	printf("\n3 - \n");
 	
 	scanf("%d", &opcao);
- 
+ do{
   switch (opcao)
   {
      case 1 :
@@ -78,7 +78,7 @@ int main(){
 	 
 	break;
 	}
- 
+ while{
      /*case 2 :
      	
      	break;
