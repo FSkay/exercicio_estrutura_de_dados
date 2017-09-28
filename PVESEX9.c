@@ -26,3 +26,28 @@ Aluno: Felipe Menegat
 */
 
 #include <stdlib.h>
+#include <stdio.h>
+#define MAX 99
+
+/*ESTRUTURAS*/
+
+//ESTRUTURA FUNCIONARIO
+typedef struct{
+   int codigo;
+   char nome[31];
+   char endereco[60];
+   int telefone[17];
+   char email[30];
+   float cpf[12];
+} Funcionario;
+
+typedef struct{
+ 
+}
+
+int main(void){
+ 
+ 
+ 
+ 
+}
