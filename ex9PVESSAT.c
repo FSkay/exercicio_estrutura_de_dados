@@ -141,6 +141,22 @@ void excluir(){
 	 topo  = topo - 1;
 }
 
+void listar(){
+     
+	 int i;
+     
+     for(i = 0;i < topo; i++){
+           
+		   printf("ARQUIVO %d\n",(i+1));
+           printf("CÓDIGO: %d",funcionario[i].cod);
+           printf("NOME: %s",funcionario[i].nome);
+           printf("CPF: %f",funcionario[i].cpf);           
+           printf("TELEFONE: %d",funcionario[i].telefone);
+           printf("E-MAIL: %s",funcionario[i].email);
+           printf("\n\n");
+     }
+}
+
 int main(void){
 	system("color a0");
 	int opcao; //VARIÁVEL PARA OPÇÕES 	
